@@ -17,8 +17,15 @@ body {
 }
 
 .inline-logo {
+  display: inline-block;
+  background-position: 0 0.15em;
   background-image: url("images/logo.svg");
+  padding-bottom: 0.15em;
+  margin-right: 0.5em;
   height: 1em;
-  width: auto;
-  color: var(--bg-yellow);
+  width: 5.72em;
+  letter-spacing: 0.2em;
+  color: rgba(0, 0, 0, 0);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
