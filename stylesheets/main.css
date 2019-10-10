@@ -15,3 +15,13 @@ body {
   font-weight: 400;
   font-family: "STIX", "Times New Roman", Times, serif;
 }
+
+.inline-logo {
+  background-image: url("images/logo.svg");
+  height: 1em;
+  width: auto;
+
+  &::after {
+    content: 'tech@nyu!';
+  }
+}
