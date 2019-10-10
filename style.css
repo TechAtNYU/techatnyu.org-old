@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'STIX';
+  src: url('STIX2Text-Italic.woff2') format('woff2'),
+       url('STIX2Text-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+:root {
+  --sticky-note-yellow: #FEFFD0;
+}
+
+body {
+  --bg-yellow: --sticky-note-yellow;
+  background-color: --bg-yellow;
+  color: black;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0eWxlc2hlZXRzL2ZvbnRzLmNzcyIsInN0eWxlc2hlZXRzL21haW4uY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsbUJBQW1CO0VBQ25CO2tEQUNnRDtFQUNoRCxtQkFBbUI7RUFDbkIsa0JBQWtCO0FBQ3BCOztBQ0pBO0VBQ0UsNkJBQTZCO0FBQy9COztBQUVBO0VBQ0UsaUNBQWlDO0VBQ2pDLDZCQUE2QjtFQUM3QixZQUFZO0FBQ2QiLCJmaWxlIjoic3R5bGUuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiQGZvbnQtZmFjZSB7XG4gIGZvbnQtZmFtaWx5OiAnU1RJWCc7XG4gIHNyYzogdXJsKCdTVElYMlRleHQtSXRhbGljLndvZmYyJykgZm9ybWF0KCd3b2ZmMicpLFxuICAgICAgIHVybCgnU1RJWDJUZXh0LUl0YWxpYy53b2ZmJykgZm9ybWF0KCd3b2ZmJyk7XG4gIGZvbnQtd2VpZ2h0OiBub3JtYWw7XG4gIGZvbnQtc3R5bGU6IGl0YWxpYztcbn0iLCJAaW1wb3J0IFwiZm9udHMuY3NzXCI7XG5cbjpyb290IHtcbiAgLS1zdGlja3ktbm90ZS15ZWxsb3c6ICNGRUZGRDA7XG59XG5cbmJvZHkge1xuICAtLWJnLXllbGxvdzogLS1zdGlja3ktbm90ZS15ZWxsb3c7XG4gIGJhY2tncm91bmQtY29sb3I6IC0tYmcteWVsbG93O1xuICBjb2xvcjogYmxhY2s7XG59XG4iXX0= */

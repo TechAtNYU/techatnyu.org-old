@@ -1,0 +1,11 @@
+@import "fonts.css";
+
+:root {
+  --sticky-note-yellow: #FEFFD0;
+}
+
+body {
+  --bg-yellow: --sticky-note-yellow;
+  background-color: --bg-yellow;
+  color: black;
+}
