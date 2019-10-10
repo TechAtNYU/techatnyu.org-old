@@ -5,8 +5,8 @@
 }
 
 body {
-  --bg-yellow: --sticky-note-yellow;
-  background-color: --bg-yellow;
+  --bg-yellow: var(--sticky-note-yellow);
+  background-color: var(--bg-yellow);
   color: black;
 }
 
@@ -20,8 +20,5 @@ body {
   background-image: url("images/logo.svg");
   height: 1em;
   width: auto;
-
-  &::after {
-    content: 'tech@nyu!';
-  }
+  color: var(--bg-yellow);
 }
