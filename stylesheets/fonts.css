@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'STIX';
-  src: url('STIX2Text-Italic.woff2') format('woff2'),
-       url('STIX2Text-Italic.woff') format('woff');
+  src: url('fonts/STIX2Text-Italic.woff2') format('woff2'),
+       url('fonts/STIX2Text-Italic.woff') format('woff');
   font-weight: normal;
   font-style: italic;
 }

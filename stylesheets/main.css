@@ -9,3 +9,9 @@ body {
   background-color: --bg-yellow;
   color: black;
 }
+
+#tagline {
+  font-style: italic;
+  font-weight: 400;
+  font-family: "STIX", "Times New Roman", Times, serif;
+}
