@@ -7,11 +7,16 @@
   --italic-serif: "STIX", "Times New Roman", Times, serif;
 }
 
+@custom-media --mobile screen and (max-width: 600px);
+
 body {
   --bg-yellow: var(--sticky-note-yellow);
   background-color: var(--bg-yellow);
   color: black;
-  padding: 75px 75px;
+  padding: 75px;
+  @media (--mobile) {
+    padding: 30px;
+  }
 }
 
 h1 {
@@ -53,4 +58,9 @@ h1 {
   position: absolute;
   bottom: 75px;
   right: 100px;
+
+  @media (--mobile) {
+    position: static;
+    padding-top: 150px;
+  }
 }

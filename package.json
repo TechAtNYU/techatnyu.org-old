@@ -30,5 +30,6 @@
       "postcss-import": {},
       "postcss-preset-env": { "stage": 1 }
     }
-  }
+  },
+  "browserslist": ["> 0.5%"]
 }
