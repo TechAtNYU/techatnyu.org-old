@@ -14,6 +14,7 @@ body {
   background-color: var(--bg-yellow);
   color: black;
   padding: 75px;
+  font-family: var(--sans-serif);
   @media (--mobile) {
     padding: 30px;
   }
@@ -63,4 +64,8 @@ h1 {
     position: static;
     padding-top: 150px;
   }
+}
+
+#above-the-fold {
+  min-height: 100vh;
 }
